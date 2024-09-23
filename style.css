@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(1, 163, 244);
+}
+
+#div1,
+#div2 {
+    background-color: rgb(255, 255, 255);
+    /* Color for the First and second box */
+}
+
+.box {
+    width: 366px;
+    height: 362px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+
+    /*Using image fits in box while maintaining aspect ratio */
+}
+
+@media (min-width: 1200px) {
+
+    .h2,
+    h2 {
+        font-size: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+}
